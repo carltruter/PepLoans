@@ -1,0 +1,315 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+/* Banner */
+
+	.banner {
+		background-image: url(../images/dark_tint.png), url(../images/apply_background.jpg);
+		background-position: center center;
+		background-size: cover;
+		color: #ffffff;
+		padding: 5em 0em 3em;
+		text-align: center; 
+	}
+	.section_image {
+		background-image: url(../images/agent.jpg);
+		background-repeat: no-repeat;background-size: cover;
+		/* position:absolute;  */
+		/* top:0; 
+		bottom:0;  */
+		/* margin-left: auto;
+		margin-right: auto; */
+		/* width:1479px; */
+		/* height:480px; */
+	}
+	.doc_upload_img {
+		background-image: url(../images/clouds.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		color: #ffffff;
+		padding: 1em 0em 0em;
+		text-align: center; 
+	}
+	.agency_banner{
+		height: 645px;
+		width: 1479;
+		background-color: lightgray;
+	}
+	.docs_upload_section{
+		/* height: 645px; */
+		width: 1479;
+		border-bottom: 1px solid lightgray;
+}
+	.inside_banner{
+		width: 1479;
+	}
+	.inside_banner_text{
+		width: 30%;
+	}
+	.inside_banner_text .text_container{
+		width:250px;
+		margin: auto;
+	}
+
+		.page-inner-container{
+			width: 1360px;
+			margin: 0 auto;
+		}
+		div .row .container_inside{
+			width:1142px;
+			height: 70px;
+			position: relative;
+		}.container_inside img {
+			 position: absolute;
+			bottom: 0;
+		}
+		
+		.container_inside img:nth-of-type(1) {
+			left: 0;
+			margin-bottom: 4px;
+
+		}
+		
+		.container_inside img:nth-of-type(2) {
+			right: 0;
+			margin-bottom: 13px;
+		}
+		.section_image_text{
+			/* width: 37%; */
+			display: inline-block;
+			vertical-align: top;
+			padding: 0;
+			color: #FFFFFF;
+		}
+
+		.text {
+			color: #FFFFFF;
+			margin-top: 140px;
+			font-size: 44px;
+			font-family: sans-serif;
+			font-weight: bold;
+			
+		}
+		.text_banner{
+			color: #FFFFFF;
+			font-size: 35px;
+			font-family: sans-serif;
+		}
+		.text_banner span{
+			font-size: 77px;
+		}
+		.inside_banner_text_small{
+			font-family: sans-serif;
+			font-size: 12px;
+		}
+		.text_color{
+			color: #FFFFFF;
+		}
+		.text_agency{
+			font-family: sans-serif;
+			color:#1E86D4;
+			text-align: center;
+			font-size: 25px;
+			margin-top: 10px;
+		}
+		input{
+			/* border-radius: 5px; */
+			/* width: 294px; */
+			/* margin-left: 5%;
+			margin-right: 5%; */
+			text-align: center;
+			border: 1px solid lightgray;
+			/* padding: 10px; */
+			border-radius: 5px;
+			/* height: 27px; */
+		}
+		.section_image_form{
+			/* width: 24%; */
+			display: inline-block;
+			color: #FFFFFF;
+			background-color: #FFFFFF;
+			margin-top: 20px;
+			margin-bottom: 20px;
+	
+			border-radius: 15px;
+		}
+		.buttonHolder{
+			text-align: center;
+		}
+		form{
+			text-align: center;
+		}
+		.form_style{
+			background-color: white;
+			padding: 0 !important;
+			border-radius: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-left: 4px;
+		}
+		.gap20{
+			height: 20px;
+		}
+		.apply_now_btn{
+			font-size: 17px;
+			margin-top: 25px;
+			color: #FFFFFF;
+			background-color: #EC842D;
+			height: 40px;
+			width: 120px;
+			border-radius: 20px;
+			font-weight: bold;
+			border-color: #EC842D;
+		}
+		.submit_btn{
+			margin-top: 25px;
+			color: #FFFFFF;
+			background-color: #EC842D;
+			height: 40px;
+			width: 120px;
+			border-radius: 20px;
+			font-weight: bold;
+			border-color: #EC842D;
+		}
+		.upload_docs_btn{
+			margin-top: 25px;
+			color: #FFFFFF;
+			background-color: #EC842D;
+			height: 40px;
+			width: 120px;
+			border-radius: 20px;
+			font-weight: bold;
+			border-color: #EC842D;
+			/* margin-left: 30%; */
+		}
+		.docs_you_need_to_apply_text{
+			font-family: sans-serif;
+			font-size: 35px;
+			font-weight: bold;
+			color: #505052;
+			text-align: center;
+		}
+		.docs_upload_imgs{
+			text-align: center;
+			margin-top: 40px;
+		}
+		/* .docs_you_need_img_margin{
+		    margin-left: 5%;
+    		margin-right: 5%;
+		} */
+		.text_align_center{
+			text-align: center;
+		}
+		.text_align_left{
+			text-align: left;
+		}
+		.text_align_center{
+			text-align: center;
+		}
+		.text_align_right{
+			text-align: left;
+		}
+		.docs_uploads_section {
+			width: 335px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.font_size_12{
+			font-size: 12px;
+			color: #505052;
+			font-family: sans-serif;
+		}
+		.font_size_14{
+			font-size: 14px;
+			color: #505052;
+			font-family: sans-serif;
+		}
+		.font_size_20{
+			font-size: 20px;
+			color: #505052;
+			font-family: sans-serif;
+		}
+		.footer{
+			margin-top: 40px;
+		}
+		hr{
+		    /* background-color: dimgrey !important; */
+			color: dimgrey !important;
+			border: solid 0.5px #EC842D !important;
+			height: 0.5px !important;
+			/* width: 1000px !important; */
+		}
+		.footer_headers_holder{
+			height: 65px;
+		}
+		a{
+			color: #EC842D;
+		}
+		.pep_logo{
+			margin-left: 50px;
+			margin-top: 10px;
+		}
+		.capfin_logo{
+			margin-top: 20px;
+		}
+		.header{
+			height:80px;
+		}
